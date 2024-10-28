@@ -10,3 +10,6 @@ npx node D:\MeineAufgabe\src\tests\Triangle.test.js. Diese Tests überprüfen di
 
 HTML-Report generieren: Um einen visuellen Bericht der Testergebnisse zu erstellen, verwenden Sie den Befehl
 npm run report. Der HTML-Report bietet eine übersichtliche Zusammenfassung der Testergebnisse, die sowohl für Entwickler als auch für Stakeholder zugänglich ist.
+
+
+

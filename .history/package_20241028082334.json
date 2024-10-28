@@ -1,0 +1,4 @@
+"scripts": {
+  "test": "cucumber-js src/features/triangle.feature --format json:cucumber-report.json",
+  "report": "node report.js"
+}

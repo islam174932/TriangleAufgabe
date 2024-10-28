@@ -1,0 +1,463 @@
+[
+  {
+    "description": "  As a user\n  I want to validate triangle properties\n  So that I can determine if sides can form a triangle and its type",
+    "elements": [
+      {
+        "description": "",
+        "id": "triangle-validator;checking-if-three-sides-can-form-a-valid-triangle",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Checking if three sides can form a valid triangle",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I have sides 3, 4, and 5",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1307000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I check if it forms a valid triangle",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the result should be \"true\"",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "triangle-validator;checking-if-three-sides-can-form-a-valid-triangle",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Checking if three sides can form a valid triangle",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I have sides 1, 1, and 3",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I check if it forms a valid triangle",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the result should be \"false\"",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "triangle-validator;checking-if-three-sides-can-form-a-valid-triangle",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Checking if three sides can form a valid triangle",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I have sides 2, 2, and 2",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I check if it forms a valid triangle",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the result should be \"true\"",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "triangle-validator;checking-if-three-sides-can-form-a-valid-triangle",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Checking if three sides can form a valid triangle",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I have sides 0, 1, and 2",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I check if it forms a valid triangle",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the result should be \"false\"",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "triangle-validator;checking-if-three-sides-can-form-a-valid-triangle",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Checking if three sides can form a valid triangle",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I have sides -1, 2, and 2",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I check if it forms a valid triangle",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the result should be \"false\"",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "triangle-validator;determining-triangle-type",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Determining triangle type",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I have sides 2, 2, and 2",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I check the triangle type",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the type should be \"Gleichseitig\"",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "triangle-validator;determining-triangle-type",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Determining triangle type",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I have sides 2, 2, and 3",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I check the triangle type",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the type should be \"Gleichschenklig\"",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "triangle-validator;determining-triangle-type",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Determining triangle type",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I have sides 3, 4, and 5",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I check the triangle type",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the type should be \"Ungleichseitig\"",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "triangle-validator;determining-triangle-type",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Determining triangle type",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I have sides 1, 1, and 3",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I check the triangle type",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the type should be \"Invalid\"",
+            "match": {
+              "location": "src\\features\\step_definitions\\triangle_steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "triangle-validator",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Triangle Validator",
+    "tags": [],
+    "uri": "src\\features\\triangle.feature"
+  }
+]
